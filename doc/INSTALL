@@ -1,0 +1,21 @@
+The file tree should be installed in this manner:
+=================================================
+  httpov/            <-- The server's document root
+    interface/
+      templates/
+        cache/
+        compile/
+      themes/
+        blue/
+      uploads/
+    finished/
+  interface_conf.php
+
+Make sure the server is allowed to write to uploads, as this is used
+when uplading jobs through the web interface. Also, finished has to be
+writable by the server if the finished batches are to be placed there.
+interface_conf.php is supposed to reside in the same directory as
+httpov_conf.php.
+
+Place Smarty, jQuery and TableSorter in 
+Use of x.2 clients or newer is required for full functionality.

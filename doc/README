@@ -1,0 +1,16 @@
+HTTPov interface: Status interface for HTTPov
+
+This is an interface for viewing the internal states of the HTTPov server;
+available and running jobs and batches, and the number of clients 
+currently running.
+
+Requirements:
+=============
+Smarty, tested with version 2.6.26:
+http://www.smarty.net/
+
+jQuery, tested with version 1.5.1:
+http://jquery.com/
+
+TableSorter, tested with version 2.0.5b:
+http://tablesorter.com
